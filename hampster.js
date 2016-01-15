@@ -24,7 +24,7 @@ for (i=0;i < hampsterArray.length; i++) {
         var animalDiv = document.createElement('div');
         animalDiv.className = 'animalContainer'        
         animalDiv.innerHTML = '<div class="animalContent"><img class="animalImg" src="'+img+'" /><p class="name">'+name+'</p><p class="breed">'+breed+'</p><p class="sound">'+sound+'</p></div>';
-        var sectionContainer = document.getElementById('dogs');
+        var sectionContainer = document.getElementById('hampsters');
         sectionContainer.appendChild(animalDiv);
 }
 
