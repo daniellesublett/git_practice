@@ -16,7 +16,9 @@ var fluffy = new Cat('Fluffy','fluffy',0, '"meow"', 'http://oddstuffmagazine.com
 
 // Cat Array
 
+
 var catArray = [mrGrumpy,kalie,blackie,milo,fluffy,fluffy1,fluffy2];
+
 
 
 //Output to HTML
