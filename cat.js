@@ -12,10 +12,10 @@ var mrGrumpy = new Cat('Mr.Grumpy', 'persian long hair', 4, '"ruff ruff!"', 'htt
 var kalie = new Cat('Tiger', 'calico', 0,'"mew mew"','https://s-media-cache-ak0.pinimg.com/236x/08/67/99/0867998a8e927bb50133bb5d2cd25f83.jpg');
 var blackie = new Cat('Blackie','tabby',0, '"meeew"', 'http://placekitten.com/150/170');
 var milo = new Cat('Milo','orange tabby',0, '"meow"', 'http://oddstuffmagazine.com/wp-content/uploads/2011/09/Small-Cat-580x574.png');
-
+var fluffy = new Cat('Fluffy','fluffy',0, '"meow"', 'http://oddstuffmagazine.com/wp-content/uploads/2011/09/Small-Cat-580x574.png');
 
 // Cat Array
-var catArray = [mrGrumpy,kalie,blackie,milo];
+var catArray = [mrGrumpy,kalie,blackie,milo,fluffy];
 
 //Output to HTML
 for (i=0;i < catArray.length; i++) {
